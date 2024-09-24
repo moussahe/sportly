@@ -80,6 +80,6 @@ Ce projet est sous licence [insérer le type de licence ici].
 
 ## Contact
 
-[Votre Nom] - [Votre Email]
+moussa.he@gmail.com
 
 Lien du Projet : [https://github.com/moussahe/sportly](https://github.com/moussahe/sportly)
