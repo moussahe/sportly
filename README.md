@@ -1,32 +1,32 @@
-# Sportly - Application de Gestion de Centre Sportif
+# Sportly
 
-Sportly est une application web moderne conçue pour faciliter la gestion des centres sportifs. Elle offre des fonctionnalités telles que la réservation de terrains, la gestion des utilisateurs, et l'organisation de tournois.
+Sportly est une application web moderne de gestion de centre sportif développée avec Next.js et React. Elle offre une interface utilisateur intuitive pour la réservation de terrains et la gestion des activités sportives.
 
 ## Fonctionnalités
 
-- Authentification des utilisateurs (connexion classique et SSO)
+- Authentification des utilisateurs
 - Réservation de terrains sportifs
 - Gestion des calendriers et des disponibilités
-- Interface utilisateur intuitive et responsive
+- Interface utilisateur responsive et moderne
 
 ## Technologies Utilisées
 
-- [Next.js](https://nextjs.org/) - Framework React pour le rendu côté serveur et la génération de sites statiques
-- [React](https://reactjs.org/) - Bibliothèque JavaScript pour la construction d'interfaces utilisateur
-- [TypeScript](https://www.typescriptlang.org/) - Superset typé de JavaScript
-- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitaire
-- [Radix UI](https://www.radix-ui.com/) - Bibliothèque de composants UI accessibles et sans style
+- [Next.js 13](https://nextjs.org/)
+- [React 18](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
 
 ## Prérequis
 
 - Node.js (version 14.0 ou supérieure)
-- npm (généralement inclus avec Node.js)
+- npm
 
 ## Installation
 
 1. Clonez le dépôt :
    ```
-   git clone https://github.com/moussa.he/sportly.git
+   git clone https://github.com/moussahe/sportly.git
    ```
 
 2. Naviguez dans le dossier du projet :
@@ -39,38 +39,15 @@ Sportly est une application web moderne conçue pour faciliter la gestion des ce
    npm install
    ```
 
-## Configuration
-
-1. Créez un fichier `.env.local` à la racine du projet et ajoutez les variables d'environnement nécessaires :
-   ```
-   NEXT_PUBLIC_API_URL=votre_url_api
-   ```
-
-2. Configurez les options de connexion SSO dans le fichier approprié (par exemple, `config/auth.ts`).
-
 ## Lancement de l'Application
 
-Pour lancer l'application en mode développement :
+Pour démarrer l'application en mode développement :
 
 ```
 npm run dev
 ```
 
 L'application sera accessible à l'adresse `http://localhost:3000`.
-
-## Build et Déploiement
-
-Pour créer une version de production :
-
-```
-npm run build
-```
-
-Pour lancer la version de production :
-
-```
-npm start
-```
 
 ## Structure du Projet
 
@@ -80,33 +57,29 @@ sportly/
 │   ├── auth/
 │   ├── calendar/
 │   ├── sports-booking/
+│   ├── globals.css
 │   ├── layout.tsx
 │   └── page.tsx
 ├── components/
 │   └── ui/
 ├── lib/
 ├── public/
-├── styles/
 ├── next.config.js
 ├── package.json
-├── README.md
+├── tailwind.config.js
 └── tsconfig.json
 ```
 
 ## Contribution
 
-Les contributions sont les bienvenues ! Veuillez suivre ces étapes pour contribuer :
-
-1. Forkez le projet
-2. Créez votre branche de fonctionnalité (`git checkout -b feature/AmazingFeature`)
-3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrez une Pull Request
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
 
 ## Licence
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+Ce projet est sous licence [insérer le type de licence ici].
 
 ## Contact
 
-moussa.he@gmail.com
+[Votre Nom] - [Votre Email]
+
+Lien du Projet : [https://github.com/moussahe/sportly](https://github.com/moussahe/sportly)
